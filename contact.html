@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact Dr. Y. Sobhan Babu">
+    <title>Contact - Dr. Y. Sobhan Babu</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav-bar" id="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="nav-brand">Dr. Y. Sobhan Babu</a>
+            <button class="mobile-menu-toggle" id="mobileMenuToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="education.html">Education</a></li>
+                <li><a href="experience.html">Experience</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="publications.html">Publications</a></li>
+                <li><a href="conferences.html">Conferences</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1 class="page-title">Get in Touch</h1>
+            <p class="page-subtitle">Open to Academic Collaboration & Opportunities</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section">
+        <div class="container">
+            <div class="contact-layout">
+                <!-- Contact Information -->
+                <div class="contact-info-section">
+                    <h2>Contact Information</h2>
+                    <div class="contact-cards">
+                        <div class="info-card">
+                            <div class="info-icon">📧</div>
+                            <h3>Email</h3>
+                            <a href="mailto:sobhanbabu.mtech@gmail.com" class="contact-link">sobhanbabu.mtech@gmail.com</a>
+                            <p class="info-note">For academic inquiries and collaboration</p>
+                        </div>
+
+                        <div class="info-card">
+                            <div class="info-icon">📱</div>
+                            <h3>Phone</h3>
+                            <a href="tel:+919440229888" class="contact-link">+91-9440229888</a>
+                            <p class="info-note">Available during business hours</p>
+                        </div>
+
+                        <div class="info-card">
+                            <div class="info-icon">📍</div>
+                            <h3>Location</h3>
+                            <p class="contact-link">Anantapuramu<br>Andhra Pradesh<br>India</p>
+                            <p class="info-note">Available for in-person meetings</p>
+                        </div>
+
+                        <div class="info-card">
+                            <div class="info-icon">💼</div>
+                            <h3>Current Affiliation</h3>
+                            <p class="contact-text">Professor, Computer Science & Engineering</p>
+                            <p class="info-note">Available for consultation</p>
+                        </div>
+                    </div>
+
+                    <!-- Professional Availability -->
+                    <div class="availability-section">
+                        <h3>Professional Availability</h3>
+                        <div class="availability-grid">
+                            <div class="availability-item">
+                                <div class="availability-icon">✓</div>
+                                <h4>Academic Consultation</h4>
+                                <p>Research guidance, curriculum development, and academic planning</p>
+                            </div>
+                            <div class="availability-item">
+                                <div class="availability-icon">✓</div>
+                                <h4>Conference Presentations</h4>
+                                <p>Keynote speeches, technical presentations, and workshop facilitation</p>
+                            </div>
+                            <div class="availability-item">
+                                <div class="availability-icon">✓</div>
+                                <h4>Research Collaboration</h4>
+                                <p>Joint research projects, paper co-authorship, and Ph.D. supervision</p>
+                            </div>
+                            <div class="availability-item">
+                                <div class="availability-icon">✓</div>
+                                <h4>Faculty Training</h4>
+                                <p>Faculty development programs and professional training sessions</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Quick Contact Form -->
+                <div class="contact-form-section">
+                    <h2>Send a Message</h2>
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" name="name" placeholder="Your full name" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" placeholder="your.email@example.com" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone" placeholder="+91-XXXXXXXXXX">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <select id="subject" name="subject" required>
+                                <option value="">Select a subject</option>
+                                <option value="collaboration">Research Collaboration</option>
+                                <option value="consultation">Academic Consultation</option>
+                                <option value="conference">Conference Invitation</option>
+                                <option value="recruitment">Recruitment Inquiry</option>
+                                <option value="training">Faculty Training</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="6" placeholder="Please provide details about your inquiry..." required></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary btn-submit">
+                            <span class="btn-text">Send Message</span>
+                            <span class="btn-loading" style="display: none;">Sending...</span>
+                        </button>
+
+                        <div class="form-note">
+                            <p>Your message will be sent directly to Dr. Sobhan Babu's email. You can expect a response within 2-3 business days.</p>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Areas of Interest -->
+    <section class="section interest-section">
+        <div class="container">
+            <h2 class="section-title">Areas of Interest for Collaboration</h2>
+            <div class="interest-grid">
+                <div class="interest-card">
+                    <div class="interest-icon">🔬</div>
+                    <h3>Research Projects</h3>
+                    <p>Collaborative research in Distributed Systems, Network Security, DTNs, and Cryptographic Access Control</p>
+                </div>
+                <div class="interest-card">
+                    <div class="interest-icon">🎓</div>
+                    <h3>Academic Positions</h3>
+                    <p>Professor, Associate Professor roles in AICTE/UGC approved institutions with research facilities</p>
+                </div>
+                <div class="interest-card">
+                    <div class="interest-icon">📚</div>
+                    <h3>Publication Opportunities</h3>
+                    <p>Co-authorship, journal paper collaboration, and book chapter contributions</p>
+                </div>
+                <div class="interest-card">
+                    <div class="interest-icon">🎤</div>
+                    <h3>Speaking Engagements</h3>
+                    <p>Conference keynotes, seminar presentations, and technical workshops</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Info Section -->
+    <section class="section map-section">
+        <div class="container">
+            <div class="location-info">
+                <div class="location-text">
+                    <h2>Location</h2>
+                    <p><strong>City:</strong> Anantapuramu</p>
+                    <p><strong>State:</strong> Andhra Pradesh</p>
+                    <p><strong>Country:</strong> India</p>
+                    <p class="location-note">Anantapuramu is well-connected by road and rail to major cities in Andhra Pradesh and neighboring states. The city is home to several academic institutions and research centers.</p>
+                </div>
+                <div class="location-details">
+                    <h3>Nearby Academic Institutions</h3>
+                    <ul>
+                        <li>JNTUA College of Engineering, Anantapur</li>
+                        <li>Various AICTE-approved engineering colleges</li>
+                        <li>Research centers and technical institutes</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Dr. Y. Sobhan Babu</h3>
+                    <p>Professor in Computer Science & Engineering</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="education.html">Education</a></li>
+                        <li><a href="publications.html">Publications</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact</h3>
+                    <p>Email: <a href="mailto:sobhanbabu.mtech@gmail.com">sobhanbabu.mtech@gmail.com</a></p>
+                    <p>Phone: <a href="tel:+919440229888">+91-9440229888</a></p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Dr. Y. Sobhan Babu — Academic Portfolio. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
